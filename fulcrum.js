@@ -28,5 +28,4 @@ client.once("ready", () => {
   });
 });
 
-console.log(process.env);
 client.login(process.env.BOT_TOKEN);
